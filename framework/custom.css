@@ -1,0 +1,16 @@
+.is-family-serif {
+	font-family: serif;
+	}
+.is-selected {
+	font-weight: bold;
+	background: transparent !important;
+	}
+.navbar {
+	margin-bottom: -4em;
+	}
+.navbar a:hover {
+	background: transparent; 
+	}
+h2 {
+	margin-top: 2em !important;
+	}

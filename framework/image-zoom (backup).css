@@ -1,0 +1,56 @@
+.image-container img {
+	cursor: pointer;
+	width: 100%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    display: none; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.modal-content {
+    max-width: 95%; /* Allow the image to take up more width */
+    max-height: 95%; /* Allow the image to take up more height */
+    width: auto; /* Allow width to adjust based on aspect ratio */
+    height: auto; /* Allow height to adjust based on aspect ratio */
+    object-fit: contain; /* Ensure the image fits within the modal */
+    cursor: pointer;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001; /* Ensure the close button is above the modal */
+}
+
+
+
+@media (prefers-color-scheme: light) {
+    .modal {
+		background-color: rgba(255, 255, 255, 0.9); /* White w/ opacity */
+    }
+    .close {
+		color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .modal {
+		background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+    }
+    .close {
+		color: white;
+    }
+}
