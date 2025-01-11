@@ -36,22 +36,26 @@ h2 {
 	margin-top: 2em !important;
 	}
 	
+/* 
 .image-container.labeled-image {
 	position: relative;
 	display: inline-block;
 }
+ */
+/* 
 .image-container.labeled-image img {
-	width: 100%; /* Make the image responsive */
+	width: 100%;
 	height: auto;
 	filter: grayscale(100%);
 	opacity: 0.8;
-	/* transition: .25s ease; */
 }
+ */
 .image-container.labeled-image a:hover img {
 	/* filter: none; */
 	/* opacity: 1; */
 	}
 
+/* 
 .overlay {
 	position: absolute;
 	top: 50%;
@@ -61,9 +65,9 @@ h2 {
 	text-align: center;
 	background-color: rgba(0, 0, 0, 1); 
 	padding: 1em 1.5em;
-	/* border-radius: 3em; */
 	text-transform: uppercase;
 	letter-spacing: .15em;
 	font-size: 1em;
 	font-weight: bold;
 }
+ */
