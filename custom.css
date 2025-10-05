@@ -1,0 +1,37 @@
+@media (prefers-color-scheme: light) {
+    html {
+        background-color: #f5f4f2;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #262625;
+    }
+}
+.is-selected {
+	color: #fff;
+	}
+.navbar {
+	margin-bottom: -4em;
+	background: transparent;
+	}
+.navbar a:hover:not(.is-selected) {
+	background: none; 
+	}
+.navbar-brand {
+	letter-spacing: .4em;
+	}
+.navbar-menu .navbar-item {
+	letter-spacing: .15em;
+	font-size: 90%;
+	}
+h1 {
+	font-weight: normal !important;
+	font-style: italic;
+	}
+h2 {
+	margin-top: 2em !important;
+	}
+a:link, a:visited, a:hover, a:active  {
+	text-decoration: underline;
+	}
