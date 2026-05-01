@@ -9,8 +9,8 @@
 	<meta name="googlebot" content="nosnippet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Richard Irvine Photography and Design</title>
-	<link rel="stylesheet" href="bulma.min.css">
-	<link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="https://richardirvine.net/bulma.min.css">
+	<link rel="stylesheet" href="https://richardirvine.net/custom.css">
 	<style>
 		@media (prefers-color-scheme: light) {
 		    html {
@@ -32,15 +32,28 @@
 		a:link, a:visited, a:hover, a:active  {
 			text-decoration: underline;
 			}
+	        @media (max-width: 768px) {
+			.responsive-paragraph {
+			font-size: 1.5rem; /* Equivalent to is-size-4 */
+				}
+			}
+
+	        @media (min-width: 769px) {
+        		.responsive-paragraph {
+        		font-size: 2rem; /* Equivalent to is-size-3 */
+				}
+			}
 	</style>
 </head>
 
 <body>
 	
 	<section class="section">
-		<div class="container content is-size-4 is-max-widescreen">
-			<p>Hello, world! I&rsquo;m a photographer and graphic designer currently working in the field of blindness and disabilities. In my career I have made a wide range of <a href="https://glass.photo/irvine/series/">pictures</a>. I&rsquo;ve also done a bit of work in <a href="video.html">video</a> and <a href="https://glass.photo/irvine/series/2QwVMQNivsndO0M2yOiyBv-graphic-design">graphic design</a>. My pics are on a website called Glass, which is sort of like <a href="https://glass.photo/irvine/">Instagram</a>. My email address is irvine@hey.com. Thanks for stopping by.</p>
-			<p><img alt="R. Irvine" src="signature.png" style="width: 10em; margin-top: 1em;" /></p>
+		<div class="container content responsive-paragraph is-max-desktop">
+			<p>Hello world,</p>
+			<p>I&rsquo;m a photographer and graphic designer currently working in the field of blindness and disabilities. In my career I have made a wide range of <a href="https://glass.photo/irvine/series/">pictures</a>. I&rsquo;ve also done a bit of work in <a href="video.html">video</a> and <a href="https://glass.photo/irvine/series/2QwVMQNivsndO0M2yOiyBv-graphic-design">graphic design</a>. My email address is irvine@hey.com.<p>
+			<p>Thanks for looking,<br />
+				<img alt="Richard Irvine" src="https://richardirvine.net/signature.png" style="width: 10em; margin-top: 1em;" /></p>
 		</div>
 	</section>
 
